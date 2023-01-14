@@ -6,7 +6,7 @@ from flask import (Flask,request,render_template,redirect,url_for,jsonify)
 from pymongo import MongoClient
 import requests
 from datetime import datetime
-from bson import ObjectId
+from json import ObjectId
 app = Flask(__name__)
 
 dotenv_path = join(dirname(__file__), '.env')
